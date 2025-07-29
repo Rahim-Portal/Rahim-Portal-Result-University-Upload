@@ -1,0 +1,143 @@
+
+        h6{
+            color:black;
+            background-color: aqua;
+            text-align: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+           
+        }
+        #p2{
+            font-family: "press Start 2P","consolas";
+            color: tomato;
+            background-color: rgb(15, 15, 1);
+        }
+        h5{
+            font-size: 20px;
+            text-shadow: 5px 5px 8px grey;
+        }
+        
+        #box1{
+            width: auto
+            height: auto;
+            background: aqua;
+            font-size: 15px;
+            text-align: center;
+            animation: my-slide;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease;
+            animation-duration: 5s;
+            white-space: nowrap;
+        }
+        @keyframes my-slide{
+            from{
+                margin-left: 100%;
+
+            }
+            to{
+                margin-left: 0%;
+
+            }
+        }
+        #box2{
+            animation: ali-slides;
+
+            animation-timing-function: ease;
+            animation-duration: 5s;
+        }
+        @keyframes ali-slides{
+            from{
+                margin-left: 100%;
+            }
+            to{
+                margin-left: 0%;
+            }
+        }
+        #box3{
+            animation: ali-slides;
+
+            animation-timing-function: ease;
+            animation-duration: 12s;
+        }
+        @keyframes ali-slides{
+            from{
+                margin-left: 100%;
+            }
+            to{
+                margin-left: 0%;
+            }
+        }
+        .java:hover{
+            background-color: cyan;
+        }
+        .field{
+            border: 2px solid black;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .field:hover{
+            border-color: cyan;
+
+        }
+        .uni{text-shadow: 0px 0px 5px aliceblue, 0px -5px 5px black;
+            box-shadow: 5px 5px 5px aquamarine;
+            background-color: skyblue;
+            text-align: center;
+            border-radius: 10px;
+            position: relative;
+            
+        }
+        .uni:hover{
+            background-color: dodgerblue;
+        }
+        .aud:hover{
+            background-color: aqua;
+        }
+        th, td{
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+            transition: color 0.3s ease;
+        }
+        td:hover{
+            color: whitesmoke;
+        }
+        th:hover{
+            color: whitesmoke;
+        }
+        .Rahi{
+            color: rgb(3, 27, 48);
+            text-align: left;
+            transition: color 2.1s ease;
+        }
+        .Rahi:hover{
+         
+            color: rgb(159, 207, 207);
+        }
+        .flex{
+            display: flex;
+            justify-content: space-between;
+        }
+        @keyframes appear {
+            from {
+                opacity: 0;
+                scale: 0.5;
+            }
+            to {
+                opacity: 1;
+                scale: 1;
+            }
+        }
+        .block {
+            animation: appear 5s linear;
+            animation-timeline: view();
+            animation-range: entry 0% cover 10%;
+        }
+        .footer {
+            background-color: rgba(0, 0, 0, 0.6);
+             color: white; 
+             text-align: center;
+              padding: 20px; 
+              font-family: Verdana;
+
+        }
+ 
